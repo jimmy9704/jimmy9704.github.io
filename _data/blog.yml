@@ -6,16 +6,16 @@
 - name: Python
   href: /python/
 
-- name: Linux
+- name: C/C++
   href: /linux/
 
-- name: HTML
+- name: ROS
   href: /html/
 
 - name: Database
   href: /database/
 
-- name: Mac
+- name: Arduino
   href: /mac/
 
 - name: Life
