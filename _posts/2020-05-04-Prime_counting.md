@@ -4,7 +4,7 @@ title:  "Prime counting function"
 date:   2020-05-04
 desc: "Quick test on writing code snippets in a blog post"
 keywords: "Prime counting function"
-categories: [PYTHON]
+categories: [Python]
 tags: [PYTHON]
 icon: icon-html
 ---
