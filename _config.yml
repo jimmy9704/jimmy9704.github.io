@@ -11,7 +11,7 @@ img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/asset
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: Lee Hong Jase  # Be used at blog posts' author.
+  name: Lee Hong Jae  # Be used at blog posts' author.
   first_name: Hong Jae  # Be used at index page about me section.
   last_name: Lee  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
