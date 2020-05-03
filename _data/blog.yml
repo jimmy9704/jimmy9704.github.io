@@ -6,8 +6,8 @@
 - name: Python
   href: /python/
 
-- name: C/C++
-  href: /c++/
+- name: C
+  href: /c/
 
 - name: ROS
   href: /ros/
