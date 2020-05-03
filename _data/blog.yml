@@ -7,16 +7,16 @@
   href: /python/
 
 - name: C/C++
-  href: /c/
+  href: /c,c++/
 
 - name: ROS
-  href: /html/
+  href: /ROS/
 
 - name: Database
   href: /database/
 
-- name: Arduino
-  href: /mac/
+- name: MCU
+  href: /MCU/
 
 - name: Life
   href: /life/
