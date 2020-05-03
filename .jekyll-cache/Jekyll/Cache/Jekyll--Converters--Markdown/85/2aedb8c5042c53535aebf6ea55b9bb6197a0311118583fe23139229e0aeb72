@@ -1,0 +1,44 @@
+I"M<p>Everyone wants to have a personal website, you can display your infomation to public, post blogs and make friends. If you are CS engineer, haveing a self website will benefit your interview.</p>
+
+<p>So, if you like this website <a href="https://jarrekk.github.io/Jalpc/">https://jarrekk.github.io/Jalpc/</a> or <a href="http://www.jarrekk.com">http://www.jarrekk.com</a> and are willing to have a website, here is a way to build your website in 3 steps(2 minutes). Following are steps to setup your website(make sure you have basic knowledge of <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://pages.github.com/">GitHub Pages</a>, if you want to custom css/js <a href="https://github.com/npm/npm">NPM</a> is needed):</p>
+
+<ol>
+  <li>
+    <p>Fork <a href="https://github.com/jarrekk/Jalpc">this project – Jalpc</a> at <a href="https://github.com">GitHub</a>. If you want to edit website at github, do it as following gif or clone forked repository. <code class="highlighter-rouge">git clone git@github.com:github_username/Jalpc.git</code>.</p>
+
+    <p><!-- ![edit](/Jalpc/static/assets/img/blog/3steps/edit.gif) -->
+ <img src="/Jalpc/static/assets/img/blog/3steps/edit.gif" width="75%" /></p>
+  </li>
+  <li>
+    <p>Enter into repository directory and edit following file list:</p>
+
+    <ul>
+      <li>
+        <p><strong>_config.yml</strong>: edit ‘Website settings’, ‘author’, ‘comment’ and ‘analytics’ items.</p>
+      </li>
+      <li>
+        <p><strong>_data/landing.yml</strong>: custom sections of index page.</p>
+      </li>
+      <li>
+        <p><strong>_data/index/</strong>: edit sections’ data to yours at index page, please notice comment at each file.</p>
+      </li>
+      <li>
+        <p><strong>_data/blog.yml</strong>: edit navbar(categories) of blog page, if you have different/more blog page, copy <code class="highlighter-rouge">blog/python.html</code> and change it to your category HTML file, and edit <strong>Python</strong>, <strong>/python/</strong> to your category name at items <strong>title</strong> and <strong>permalink</strong>, make sure title is the same as permalink but capitalized first letter(except HTML).</p>
+      </li>
+      <li>
+        <p><strong>CNAME</strong>: If you wanna release website at your own domain name: edit it and create <code class="highlighter-rouge">gh-pages</code> branch; if you want to use <em>github_username.github.io</em>: leave it blank.</p>
+      </li>
+      <li>
+        <p>Go to repo’s settings panel, config <strong>GitHub Pages</strong> section to make sure website is released.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Push changes to your github repository and view your website, done!</p>
+  </li>
+</ol>
+
+<p>From now on, you can post your blog to this website by creating md files at <code class="highlighter-rouge">post/</code> directory and push it to GitHub, you can clear files at this directory before you post blogs.</p>
+
+<p>If you like this repository, I appreciate you star this repository. Please don’t hesitate to mail me or post issues on GitHub if you have any questions. Hope you have a happy blog time!😊</p>
+:ET
