@@ -25,41 +25,7 @@ According to Google, the PageRank works by counting the number and quality of li
 
 The PageRank algorithm outputs a probability distribution used to represent the likelihood that a person randomly clicking on links will arrive at any particular page.
 
-Suppose there are $n$ webpages on a specific topic, where some of them have hyperlinks to others. Then the PageRank of the webpage $i$, $p_i$, can be represented by
 
-$$
-  p_i = \frac{1-\zeta}{n} + \sum_{j\in\mc{N}_i} \zeta\frac{p_j}{d_j}
-$$
-
-where
-- $d_j$ is the number of outbound links from the webpage $j$
-- $\mc{N}_i$ is the set of webpages that have the outbound links to the webpage $i$
-- $\zeta>0$ is the damping factor, which can be interpreted as the probability that a person is not satisfied with the current webpage and clinks on the links to the other pages, and we normally set $\zeta=0.85$
-
-
-The above relation can be compactly written by the following matrix form,
-
-$$
-  p = \frac{1-\zeta}{n} {\bf 1} + \zeta M p
-$$
-
-where $p = \bmat{p_1 & p_2 & \cdots & p_n}^T$, and ${\bf 1}\in\R^{n}$ is the one-vector whose elements are all 1's.
-
-Once you obtained $M\in\R^{n\times n}$, you can solve the above linear equations for $p$. In other words, you can obtain the PageRank for all the $n$ webpages by
-
-$$
-  p = \frac{1-\zeta}{n}\left(I - \zeta M \right)^{-1} {\bf 1}
-$$
-
-However in most cases where the number of webpages that contain somethings you are interested in is extremely large, computing the inverse appearing above is practically impossible. For example googling "BTS" returns approximately 528 million documents; you won't be able to compute the inverse of $528000000\times 528000000$ matrix.
-
-Instead of this direct method, you can also solve for $p$ by using the following iterative method.
-
-$$
-  p^{k+1} = \frac{1-\zeta}{n} {\bf 1} + \zeta M p^{k}
-$$
-
-where $p^k$ stands for the page rank $p$ at the $k$-th iteration step. From a random initial condition $p^0$, you can keep updating $p^k$ until the update amount is sufficiently small. It turns out that this update rule converges for $0<\zeta<1$.
 
 Now a toy example. Suppose we have the small space of 11 webpages whose list of outbound link connections are given by
 
@@ -76,7 +42,7 @@ Now a toy example. Suppose we have the small space of 11 webpages whose list of 
 - Page K has links to E
 
 
-1. 링크된 웹사이트의 수를 고려하여 M행렬을 만든다
+1.링크된 웹사이트의 수를 고려하여 M행렬을 만든다
 
 
 ```python
@@ -97,9 +63,9 @@ print(np.shape(M))
 ```
 
 
-2.  norm이 1인 랜덤한 행렬x를 만들고 result와 x의 차에 norm(2)를  한값이 1e-6보다 작을때 까지 while문을 돌린다.
-    result=(1−𝜁)/𝑛*1+𝜁𝑀x 이다
-    B웹사이트가 가장 점수가 높은 것을 알 수 있다.
+2.norm이 1인 랜덤한 행렬x를 만들고 result와 x의 차에 norm(2)를  한값이 1e-6보다 작을때 까지 while문을 돌린다.
+  result=(1−𝜁)/𝑛*1+𝜁𝑀x 이다
+  B웹사이트가 가장 점수가 높은 것을 알 수 있다.
 
 
 ```python
