@@ -13,7 +13,7 @@ icon: icon-html
 # Drawing Character
 
 Processing 3.0을 이용하여 쿠루루 캐릭터를 그리는 코드이다
-<img src="https://drive.google.com/open?id=1rvKyOeA0XYNJGSSGCaKLHR6c8kr_VFct" width="500">
+<img src="https://drive.google.com/open?id=1rvKyOeA0XYNJGSSGCaKLHR6c8kr_VFct.jpg" width="500">
 
 
 
