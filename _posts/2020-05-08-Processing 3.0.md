@@ -13,7 +13,7 @@ icon: icon-html
 # Drawing Character
 
 Processing 3.0을 이용하여 쿠루루 캐릭터를 그리는 코드이다
-![kururu](C:\Users\jimmy\jimmy9704.github.io\image\kururu.jpg)
+![kururu](image/kururu.jpg)
 
 
 
