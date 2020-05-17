@@ -4,8 +4,8 @@ title:  "[Processing 3.0] Drawing Character"
 date:   2020-05-05
 desc: "Quick test on writing code snippets in a blog post"
 keywords: "Drawing Character"
-categories: [C]
-tags: [C]
+categories: [Processing3.0]
+tags: [Processing3.0]
 icon: icon-html
 ---
 
