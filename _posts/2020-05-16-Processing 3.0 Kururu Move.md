@@ -16,7 +16,7 @@ Processing 3.0을 이용하여 지난 포스트에서 그린 쿠루루 캐릭터
 캐릭터는 class로 만들어 관리하기 쉽게 하였다.
 
 
-![kururu_move](https://jimmy9704.github.io/image/kururu_move.mp4)
+<iframe width="655" height="437" src="https://www.youtube.com/embed/PL65s3NS0Ds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
