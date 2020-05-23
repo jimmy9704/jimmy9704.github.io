@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Python] Image noise rejection"
-date:   2020-05-16
+date:   2020-05-23
 desc: "Quick test on writing code snippets in a blog post"
 keywords: "Image noise rejection"
 categories: [Python]
