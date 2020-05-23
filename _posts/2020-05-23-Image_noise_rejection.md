@@ -73,6 +73,9 @@ plt.show()
 ```
 
 
+![Lena_fft_noise](https://jimmy9704.github.io/image/Lena_fft_noise.png)
+
+
 노이즈가 있는 이미지를 푸리에 변환하여 plot한다
 
 
