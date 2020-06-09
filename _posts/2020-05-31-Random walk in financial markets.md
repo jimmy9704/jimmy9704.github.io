@@ -10,7 +10,7 @@ icon: icon-html
 ---
 
 
-# Ex) CCTV_video_processing
+# Ex) Random walk in financial markets
 
 EE370: Software lab, Kyung Hee University.
 Jong-Han Kim (jonghank@khu.ac.kr)
