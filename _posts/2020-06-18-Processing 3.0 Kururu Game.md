@@ -14,7 +14,7 @@ icon: icon-html
 
 Processing 3.0을 이용하여 만든 쿠루루 게임
 
-<구현부>
+`구현부`
 
 
 ```java
@@ -114,7 +114,7 @@ kururu  set(kururu a){
 ```
 
 
-<character 부모 class>
+`character 부모 class`
 
 
 display함수의 설명은 Kururu draw 포스터에 있습니다.
@@ -206,7 +206,7 @@ class character {
 ```
 
 
-<빨간 쿠루루 (자식) class>
+`빨간 쿠루루 (자식) class`
 
 ```java
 class kururu extends character{
@@ -239,7 +239,7 @@ class kururu extends character{
 ```
 
 
-<노란 쿠루루 (자식) class>
+`노란 쿠루루 (자식) class>`
 
 
 ```java
@@ -262,7 +262,7 @@ class my_kururu extends character{
 ```
 
 
-<score class>
+`score class`
 
 
 ```java
