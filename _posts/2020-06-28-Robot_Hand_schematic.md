@@ -12,4 +12,4 @@ icon: icon-html
 
 # Robot Hand Schematic
 
-![Schematic](https://jimmy9704.github.io/image/Schematic.png)
+![schematic](https://jimmy9704.github.io/image/schematic.png)

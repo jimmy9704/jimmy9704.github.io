@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[c][code vision AVR] Robot Hand Schematic"
+title:  "[c][code vision AVR] Robot Hand Code"
 date:   2020-06-28
 desc: "Quick test on writing code snippets in a blog post"
 keywords: "Robot Hand Schematic"
