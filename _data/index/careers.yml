@@ -14,3 +14,18 @@
     i18n: company_a_job
   icon: fa-plus-square
   present: true
+
+- name:
+    detail: KHU rcv lab
+    i18n: company_a
+  desc:
+    detail: http://rcv.khu.ac.kr
+    i18n: company_a_desc
+  date:
+    detail: Jan. 2021
+    i18n: company_a_date
+  job:
+    detail: intern
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true

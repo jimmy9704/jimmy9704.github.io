@@ -2,8 +2,22 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Multi-Robot system
-  i18n: 
+  i18n:
   gh_user: jimmy9704
   repo: Multi-Robot system
   img: /static/assets/img/landing/ros.jpg
   desc: Multi-Robot system to Overcome Communication-denied Area by using ROS
+
+- name: FOV Image distortion correction
+  i18n:
+  gh_user: jimmy9704
+  repo: FOV Image distortion correction
+  img: /static/assets/img/landing/python.png
+  desc: FOV camera image distortion correction through deep learning
+
+- name: 3D Point cloud Mapping
+  i18n:
+  gh_user: jimmy9704
+  repo: 3D Point cloud Mapping
+  img: /static/assets/img/landing/car.jpg
+  desc: 3D Point cloud Mapping
